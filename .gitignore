@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets like DB URI, JWT keys)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output (if you ever build frontend assets)
+dist/
+build/
+
+# Optional: VS Code settings
+.vscode/

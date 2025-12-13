@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard | Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="overlay">
+    <h1>Expense Tracker</h1>
+    <div class="actions" style="justify-content: flex-end; margin-bottom: 20px;">
+      <button id="logoutBtn">Logout</button>
+    </div>
+
+    <section>
+      <h2>Add expense</h2>
+      <form id="expenseForm">
+        <label for="description">Description</label>
+        <input id="description" name="description" type="text" placeholder="Lunch, Taxi, etc." required />
+
+        <label for="amount">Amount</label>
+        <input id="amount" name="amount" type="number" min="0" step="0.01" required />
+
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date" required />
+
+        <label for="category">Category</label>
+        <select id="category" name="category">
+          <option>General</option>
+          <option>Food</option>
+          <option>Education</option>
+          <option>Transport</option>
+          
+          <option>Shopping</option>
+        </select>
+
+        <button class="primary" type="submit">Add expense</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Expense list</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="expenseBody"></tbody>
+      </table>
+      <div class="total">Total: <span id="totalAmount">0</span></div>
+      <div id="dashMsg"></div>
+    </section>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
