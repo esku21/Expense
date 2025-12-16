@@ -1,4 +1,5 @@
-# Expense Tracker
+git clone https://github.com/esku21/Expense.git
+cd Expense# Expense Tracker
 The Expense Tracker is a web application that helps users manage their personal finances. 
 It provides a simple interface to register, log in, and record daily expenses. 
 The system is built with Node.js, Express, and MongoDB Atlas, and includes authentication, secure password storage, and email notifications.
@@ -22,6 +23,8 @@ Users can register, log in, and manage their expenses. After registration, a wel
 - **Authentication**: JWT + bcrypt
 - **Email Service**: Nodemailer (Gmail SMTP)
 - **Frontend**: HTML, CSS, JavaScript
+- ![Expense-tracker](https://github.com/user-attachments/assets/1b560505-4df5-4fb1-ad2d-6512821cb511)
+
 
 ## Installation
 
