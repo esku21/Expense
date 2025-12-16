@@ -2,7 +2,7 @@ git clone https://github.com/esku21/Expense.git
 ##  Live Demo
 You can try the app here: [Expense Tracker](https://expense-production-b01e.up.railway.app)
 
-cd Expense# Expense Tracker
+cd Expense# 
 The Expense Tracker is a web application that helps users manage their personal finances. 
 It provides a simple interface to register, log in, and record daily expenses. 
 The system is built with Node.js, Express, and MongoDB Atlas, and includes authentication, secure password storage, and email notifications.
